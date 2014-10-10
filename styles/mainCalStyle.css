@@ -1,0 +1,57 @@
+html
+{
+	background-color: #F9F9F9; /**Para los numeros */
+}
+
+.calBox
+{	
+	margin: 2.5% 20%;
+	padding: 0.2em;
+	background-color: #E6EBEA;
+	display: inline-table;
+	border-radius: 0.4em;
+	border: 1px solid #555555;
+
+}
+.numBox td
+{
+	width:5em;
+	height:5em;
+	border-radius: 0.25em;
+	background-color: white; /*#777777*/
+	
+	padding:0.2em;
+	border: 0.1em solid #CCD1D0;
+
+	color:#F9581B;
+	font-weight: bold;
+	text-align: right;
+}
+
+.weekDays td
+{
+	width: 5em;
+	background-color: white;
+	border-radius: 0.25em;
+	border: 0.1em solid #CCD1D0;
+
+	text-align: center;
+}
+
+.monthName
+{
+	background-color: white;
+	border-radius: 0.25em;
+	border: 0.1em solid #CCD1D0;
+
+	text-align: center;
+}
+
+.boxSpacing
+{
+	border-collapse: separate;
+	border-spacing: 0.2em;
+}
+/* */
+	
+

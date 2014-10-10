@@ -1,0 +1,47 @@
+/* Sustituir mi antiguo:
+
+*{
+	box-sizing: border-box; /*Para modificar el boxmodel
+}
+
+Por:
+
+html {
+
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+
+	box-sizing: inherit;
+}
+
+*/
+
+html {
+
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+
+	box-sizing: inherit;
+}
+
+.cf:before, .cf:after {
+	content:" ";
+	display: table;
+
+}
+
+.cf:after {
+
+	clear:both;
+
+}
+
+.centVert{
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+}
