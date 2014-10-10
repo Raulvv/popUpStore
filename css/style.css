@@ -3,25 +3,23 @@
 	background-image: url('../images/textura3.jpg');
 	background-repeat: no-repeat;
 	background-size:100%;
-	margin-bottom: 25px;
+	margin-bottom: 2%;
 }
 .logo {
 	margin: 0px auto;
 	width: 200px;
 	height: 100px;
 	background-color: white;
-	font-size: 30px;
+	font-size: 100%;
 	text-align: center;
 }
 .menu {
 	width: 65%;
-	height: 50px;
 	margin: 0 auto;
 }
 nav ul {
 	font-family: verdana;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 90%;
 	text-align: center;
 	list-style-type: none;
 	margin: 0 auto;
@@ -30,14 +28,14 @@ nav ul {
 	background-color: #262626;
 	border-color: #262626;
 	border-radius: 28px;
-	padding: 6px;
+	padding: 1%;
 }
 nav li {
 	display: inline;
  	text-align: center;
     list-style-type: none;
-    padding: 9px 20px 9px 20px;
-    margin: 0 20px 0 20px;
+    padding: 1.4% 2% 1.4% 2%;
+    margin: 0 2% 0 2%;
 }
 a:link {text-decoration:none;}
 a:visited {color:#FFFFFF;}
@@ -46,7 +44,6 @@ nav li:hover {
 	background-color: #FF2B56;
 	transition-duration: 0.5s;
 	}
-
 .eventos {
 	margin: 50px;
 	overflow: hidden;
@@ -96,36 +93,34 @@ nav li:hover {
 	background-image: url('../images/texturafooter.jpg');
 	background-repeat: no-repeat;
 	background-size:100% 100%;
-	margin-top: 50px;
+	margin-top: 4%;
 }
 .redessociales {
-	width: 34%;
-	font-size: 30px;
-	margin: 0 auto;
+	display: block;
+	width: 25%;
+	margin:0px auto;
 }
 .redes {
 	margin: 0 auto;
-	margin-left: 50px;
+	margin: 5%;
 	display: inline-block;
 }
 footer ul {
 	font-family: verdana;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 100%;
 	text-align: center;
 	list-style-type: none;
-	margin-top: 20px;
 	margin: 0 auto;
-	padding: 6px;
+	margin-top: -2%
 }
 footer li {
 	display: inline;
  	text-align: center;
     list-style-type: none;
-    padding: 9px 20px 9px 20px;
-    margin: 0 20px 0 20px;
+    padding: 1.4% 2% 1.4% 2%;
+    margin: 0 2% 0 2%;
 }
 footer li:hover {
-	font-size: 25px;
+	font-size: 150%;
 	transition-duration: 1s;
 }
