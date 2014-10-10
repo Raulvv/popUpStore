@@ -21,6 +21,7 @@
 nav ul {
 	font-family: verdana;
 	font-size: 15px;
+	font-weight: bold;
 	text-align: center;
 	list-style-type: none;
 	margin: 0 auto;
@@ -42,7 +43,7 @@ a:link {text-decoration:none;}
 a:visited {color:#FFFFFF;}
 a:active {color:#FFFFFF;}
 nav li:hover {
-	background-color: #E6007B;
+	background-color: #FF2B56;
 	transition-duration: 0.5s;
 	}
 
@@ -106,4 +107,25 @@ nav li:hover {
 	margin: 0 auto;
 	margin-left: 50px;
 	display: inline-block;
+}
+footer ul {
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	list-style-type: none;
+	margin-top: 20px;
+	margin: 0 auto;
+	padding: 6px;
+}
+footer li {
+	display: inline;
+ 	text-align: center;
+    list-style-type: none;
+    padding: 9px 20px 9px 20px;
+    margin: 0 20px 0 20px;
+}
+footer li:hover {
+	font-size: 25px;
+	transition-duration: 1s;
 }
