@@ -1,0 +1,40 @@
+li{
+  list-style: none;
+  position: absolute;
+  left:0px;
+  right: 0px;
+  display: none;
+}
+
+.mask{
+  position: relative;
+  left: 0;
+  top: 30px;
+  width: 100%;
+}
+
+.mask img{
+  width: 100%;
+  height: 300px;
+}
+
+.botones{
+  z-index: 1;
+  position: relative;
+  bottom: 170px;
+}
+
+.control-next{
+  float: right;
+}
+
+.control-back{
+  float: left;
+}
+
+@keyframes slide {
+   0%   { left:0px; }                 /* Al principio de la animación */
+   100% { left:100%; }                 /* Al final de la animación */
+}
+            
+        
