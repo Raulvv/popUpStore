@@ -95,11 +95,12 @@ nav li:hover {
 .intermedia {
 	width: 100%;
 	height: 250px;
-	background-color: red;
+	background-color: black;
 }
 .marcas {
 	width: 90%;
 	margin: 4%;
+	margin-top: 10%;
 	overflow: hidden;
 }
 .fotoevento1 {

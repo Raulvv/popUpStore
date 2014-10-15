@@ -1,4 +1,4 @@
-li{
+.images li{
   list-style: none;
   position: absolute;
   left:0px;
@@ -9,7 +9,6 @@ li{
 .mask{
   position: relative;
   left: 0;
-  top: 30px;
   width: 100%;
 }
 
@@ -22,14 +21,6 @@ li{
   z-index: 1;
   position: relative;
   bottom: 170px;
-}
-
-.control-next{
-  float: right;
-}
-
-.control-back{
-  float: left;
 }
 
 @keyframes slide {
