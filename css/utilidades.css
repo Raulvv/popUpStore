@@ -1,12 +1,16 @@
 .centrar-vertical{
 	position: relative;
 	top: 50%;
-	transform:translateY(-50%);
+	transform:translateY(50%);
 }
 .centrar-vertical2{
 	position: relative;
 	top: 50%;
 	transform: translateY(120%);
 }
-
+.centrar-vertical1{
+	position: relative;
+	top: 20%;
+	transform:translateY(25%);
+}
 
