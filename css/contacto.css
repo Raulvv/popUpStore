@@ -1,0 +1,37 @@
+.formContacto {
+	display: inline-block;
+	width: 43%;
+	left: 35%;
+	font-family: Verdana;
+	font-size: 100%;
+	color: white;
+	margin-left: 25%;
+	margin-top: 3%;
+	padding: 3%;
+	background-color: rgb(255,43,86);
+	border-style: solid;
+	border-radius: 30px;
+}
+
+.formulario {
+	display: block;
+	width: 85%;
+	height: 20px;
+	margin: 3%;
+}
+
+.formulario1 {
+	display: block;
+	width: 85%;
+	height: 100px;
+	margin: 3%;
+}
+
+.enviar {
+	width: 10%;
+	height: 25px;
+	font-family: verdana;
+	float: right;
+	margin-top: 2%;
+	margin-right: 5%;
+}
