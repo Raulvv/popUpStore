@@ -133,16 +133,6 @@ nav li:hover {
 	background-size:100% 100%;
 	margin-top: 4%;
 }
-.redessociales {
-	display: block;
-	width: 25%;
-	margin:0px auto;
-}
-.redes {
-	margin: 0 auto;
-	margin: 5%;
-	display: inline-block;
-}
 footer ul {
 	font-family: verdana;
 	font-size: 100%;
@@ -162,3 +152,14 @@ footer li:hover {
 	font-size: 150%;
 	transition-duration: 1s;
 }
+.redessociales {
+	display: block;
+	width: 25%;
+	margin:0px auto;
+}
+.redes {
+	margin: 0 auto;
+	margin: 5%;
+	display: inline-block;
+}
+
