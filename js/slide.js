@@ -5,7 +5,7 @@ window.onload= function(){
 
     function pasarImagen(){
         var img=document.getElementById("img"+contador);
-        img.style.zIndex= "0"
+        img.style.zIndex= "2"
         img.style.animation= "slide 1s ease infinite normal";
         
         if(contador<6){
@@ -16,7 +16,7 @@ window.onload= function(){
         }
         
         var imgNext=document.getElementById("img"+contador)
-        imgNext.style.zIndex= "-3"
+        imgNext.style.zIndex= "1"
         imgNext.style.display= "inline";
         setTimeout(function(){img.style.display= "none";
         img.style.animation= "";},1000);
