@@ -16,7 +16,7 @@
 	</header>
 	<nav class="menu">
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="">Home</a></li>
 			<li><a href="">El Espacio</a></li>
 			<li><a href="">Eventos</a></li>
 			<li><a href="blog.html">Blog</a></li>
@@ -24,12 +24,14 @@
 			<li><a href="contacto.html">Contact</a></li>
 		</ul>
 	</nav>
-	<section class="formContacto">
-		Nombre <input class="formulario">
-		E-mail <input class="formulario">
-		Asunto <input class="formulario">
-		Mensaje <input class="formulario1">
+	<section>
+	<form id="formContacto" name="form1" method="post" onsubmit="validar();return false "> 
+		Nombre <input class="formulario" type="text" id="txt1" name="txt1" />
+		E-mail <input class="formulario" type="text" id="txt2" name="txt2" />
+		Asunto <input class="formulario" type="text" id="txt3" name="txt3" />
+		Mensaje <input class="formulario1" type="text" id="txt4" name="txt4" />
 		<button class="enviar" onclick="mensajeEnviado()"> Enviar </button>
+	</form>
 	</section>
 	<footer class="fin">
 		<section>
