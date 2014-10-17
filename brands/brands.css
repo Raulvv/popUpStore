@@ -1,0 +1,28 @@
+.brand_image img{
+	display: none;
+
+}
+
+.brand_image{
+	width: 500px;
+	height: 300px;
+	float: right;
+	margin-right: 10%;
+	margin-bottom: 10px;
+
+}
+#list {
+	float: left;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+.brand {
+	color: white;
+	font-family: verdana;
+}
+
+.img_brand {
+	border-style: groove;
+	border: 3px solid white;
+
+}
