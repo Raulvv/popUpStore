@@ -1,11 +1,10 @@
 var nombre = document.getElementById('txt1').value;
-var aclaracion = document.createElement('div');
+var aparecer = document.getElementById('alerta');
 
 function validar(){
-	var target = window.event.target;
-	nombre.appendChild(aclaracion);
  if (nombre == ""){
-	aclaracion.setAttribute('alerta');
+ 	return aparecer;
+    
     return false; 
 	}
  else {

@@ -35,10 +35,17 @@
 	margin-top: 2%;
 }
 
-.alerta {
-	width: 15%;
-	height: 20px;
-	background-color: red;
-
-
+#alerta {
+	width: 50%;
+	height: 22px;
+	background-color: yellow;
+	font-family: verdana;
+	font-size: 100%;
+	color: black;
+	border-style: solid;
+	border-radius: 30px;
+	display: inline;
+	float: right;
+	text-align: center;
+	display: none;
 }
