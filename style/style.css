@@ -68,24 +68,25 @@ nav li:hover {
 .fotoevento {
 	display: inline-block;
 	width: 42%;
-	height: 500px;
+	height: 350px;
 	background-color: black;
 	float: left;
 	margin-left: 7%;
 	font-size: 250%;
 	text-align: center;
 	color: white;
+	border-radius: 0.5em 0.5em .5em .5em;
 }
 
 .calendario {
 	display: inline-block;
 	float: right;
 	width: 42%;
-	height: 380px;
 	margin-right: 7%;
 	background-color: black;
 	text-align: center;
 	color: white;	
+	border-radius: 0.5em 0.5em .5em .5em;
 }
 .bottomcalendario {
 	width: 42%;
@@ -94,6 +95,7 @@ nav li:hover {
 	float: right;
 	margin-right: 7%;
 	margin-top: 1.5%;
+	border-radius: 0.5em 0.5em .5em .5em;
 }
 .intermedia {
 	width: 100%;
