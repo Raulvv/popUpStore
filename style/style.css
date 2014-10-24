@@ -19,6 +19,7 @@ body {
 .menu {
 	width: 65%;
 	margin: 0 auto;
+	margin-bottom: 5%;
 }
 nav ul {
 	font-family: verdana;
@@ -58,39 +59,41 @@ nav li:hover {
 	color:#FFFFFF;
 }
 .eventos {
-	width: 90%;
-	margin: 4%;
+	width: 80%;
+	margin: 5%;
 	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 5%;
 }
 .fotoevento {
 	display: inline-block;
-	width: 37%;
+	width: 42%;
 	height: 500px;
 	background-color: black;
 	float: left;
-	margin-left: 12%;
+	margin-left: 7%;
 	font-size: 250%;
 	text-align: center;
 	color: white;
 }
-.cajacalendario {
+
+.calendario {
 	display: inline-block;
 	float: right;
-	margin-right: 10%;
-	width: 37%;
-}
-.calendario {
-	width: 100%;
+	width: 42%;
 	height: 380px;
+	margin-right: 7%;
 	background-color: black;
 	text-align: center;
 	color: white;	
 }
 .bottomcalendario {
-	width: 100%;
+	width: 42%;
 	height: 100px;
 	background-color: black;
-	margin-top: 3.9%;
+	float: right;
+	margin-right: 7%;
+	margin-top: 1.5%;
 }
 .intermedia {
 	width: 100%;
