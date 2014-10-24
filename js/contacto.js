@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var campos = document.getElementsByClassName('formulario');
 var mensajes = document.getElementsByClassName('alerta');
 var alertNombre = document.getElementById('errNombre');
@@ -7,10 +6,8 @@ var alertAsunto = document.getElementById('errAsunto');
 var alertMensaje = document.getElementById('errMensaje');
 
 function validar(){
-
 	 for(var i = 1; i<=campos.length+1;i++)
 	 {
-
 	 	if(document.getElementById('txt'+i).value == "" )
 	 	{
 	 		errorVacio(document.getElementById('txt'+i));
@@ -20,21 +17,6 @@ function validar(){
 			mensajes[i].style.display = "none";
 		}
 	 }
- 	
-=======
-var nombre = document.getElementById('txt1').value;
-var aparecer = document.getElementById('alerta');
-
-function validar(){
- if (nombre == ""){
- 	return aparecer;
-    
-    return false; 
-	}
- else {
- 	return true;
-	};
->>>>>>> 23b4c20b570c7e5418b9a551289dcf9a4b1769e8
 }
 
 function errorVacio(campo){
