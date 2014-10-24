@@ -8,14 +8,11 @@ body {
 	height: 200px;
 	
 }
-.logo {
+
+.logo {;
 	margin: 0px auto;
-	width: 200px;
-	height: 100px;
-	background-color: white;
-	font-size: 100%;
-	text-align: center;
 }
+
 .menu {
 	width: 65%;
 	margin: 0 auto;

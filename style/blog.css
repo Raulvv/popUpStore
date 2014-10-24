@@ -12,12 +12,8 @@ body{
 }
 
 .logo {
+	background-image: url('../images/pop-up-logo.png');
 	margin: 0px auto;
-	width: 200px;
-	height: 100px;
-	background-color: white;
-	font-size: 100%;
-	text-align: center;
 }
 
 .menu {
