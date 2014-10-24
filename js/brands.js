@@ -12,6 +12,7 @@ value: "img_5"}
 ]
 
 window.onload = function (){
+	console.log("hola")
 	var links = document.getElementsByClassName("brand");
 	for (var i=0;i<links.length;i++)
 	{
@@ -20,6 +21,7 @@ window.onload = function (){
 };
 
 function pressBrand(event) {
+	console.log("hola")
 	var encontrado;
 	var x= 0;
 	var images = document.getElementsByClassName("img_brand");
