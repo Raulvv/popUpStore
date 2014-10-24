@@ -11,34 +11,36 @@ value: "img_4"},
 value: "img_5"}
 ]
 
-window.onload = function (){
-	console.log("hola")
-	var links = document.getElementsByClassName("brand");
-	for (var i=0;i<links.length;i++)
-	{
-		links[i].onclick=pressBrand;
-	}
-};
+var links = document.getElementsByClassName("brand");
+for (var i=0;i<links.length;i++)
+{
+	links[i].onclick=pressBrand;
+}
 
 function pressBrand(event) {
-	console.log("hola")
+	console.log("1")
 	var encontrado;
 	var x= 0;
-	var images = document.getElementsByClassName("img_brand");
-	
-	for (var i=0;i<images.length;i++)
+	var images = 5;
+	console.log("2")
+	for (var i=1;i<=images;i++)
 	{
-		images[i].style.display="none";
+		console.log("3")
+		document.getElementById("img_"+i).style.display="none";
 	}
 	
 	var marca=event.target.firstChild.nodeValue;
 	var imgBrand
+	console.log("4")
 
 	while(x<brands.length&&!encontrado)
 	{
+		console.log("1")
 		if (brands[x].key==marca)
 		{
+			
 			imgBrand=document.getElementById(brands[x].value);
+			console.log(brands[x].value)
 			encontrado=true;
 		}
 		x++;
