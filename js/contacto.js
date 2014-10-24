@@ -1,20 +1,45 @@
-var nombre = document.getElementById('txt1').value;
-var aclaracion = document.createElement('div');
+var campos = document.getElementsByClassName('formulario');
+var mensajes = document.getElementsByClassName('alerta');
+var alertNombre = document.getElementById('errNombre');
+var alertEmail = document.getElementById('errEmail');
+var alertAsunto = document.getElementById('errAsunto');
+var alertMensaje = document.getElementById('errMensaje');
 
 function validar(){
-	var target = window.event.target;
-	nombre.appendChild(aclaracion);
- if (nombre == ""){
-	aclaracion.setAttribute('alerta');
-    return false; 
-	}
- else {
- 	return true;
-	};
+
+	 for(var i = 1; i<=campos.length+1;i++)
+	 {
+
+	 	if(document.getElementById('txt'+i).value == "" )
+	 	{
+	 		errorVacio(document.getElementById('txt'+i));
+		}
+		else
+		{
+			mensajes[i].style.display = "none";
+		}
+	 }
+ 	
 }
 
-function mensajeEnviado(){
-	console.log("Su mensaje se ha enviado con éxito");
+function errorVacio(campo){
+
+	if(campo == document.form1.nombre)
+ 		{
+ 			alertNombre.style.display = "inline";
+ 		}
+ 		else if(campo == document.form1.asunto)
+ 		{
+ 			alertAsunto.style.display = "inline";
+ 		}
+ 		else if(campo == document.form1.mensaje)
+ 		{
+ 			alertMensaje.style.display = "inline";
+ 		}
+ 		else if(campo == document.form1.email)
+ 		{
+ 			alertEmail.style.display = "inline";
+ 		}
 }
 
 //crear div para que te avise que debes introducir mail en vez de alert
