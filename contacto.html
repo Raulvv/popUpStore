@@ -16,7 +16,7 @@
 	</header>
 	<nav class="menu">
 		<ul>
-			<li><a href="">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="">El Espacio</a></li>
 			<li><a href="">Eventos</a></li>
 			<li><a href="blog.html">Blog</a></li>
@@ -25,14 +25,17 @@
 		</ul>
 	</nav>
 	<section>
-	<form id="formContacto" name="form1" method="post" onsubmit="validar();return false "> 
-		Nombre <input class="formulario" type="text" id="txt1" name="txt1" />
-		<div id="alerta">Debe introducir un nombre correcto</div>
-		E-mail <input class="formulario" type="text" id="txt2" name="txt2" />
-		Asunto <input class="formulario" type="text" id="txt3" name="txt3" />
-		Mensaje <input class="formulario1" type="text" id="txt4" name="txt4" />
-		<button class="enviar" onclick="mensajeEnviado()"> Enviar </button>
-	</form>
+		<form id="formContacto" name="form1" method="post" onsubmit="validar();return false "> 
+			Nombre <input class="formulario" type="text" id="txt1" name="nombre" />
+			<div class="alerta" id="errNombre">Este campo no puede estar vacio.</div>
+			E-mail <input class="formulario" type="text" id="txt2" name="email" />
+			<div class="alerta" id="errEmail">El email introducido no es correcto</div>
+			Asunto <input class="formulario" type="text" id="txt3" name="asunto" />
+			<div class="alerta" id="errAsunto">Este campo no puede estar vacio.</div>
+			Mensaje <input class="formulario1" type="text" id="txt4" name="mensaje" />
+			<div class="alerta" id="errMensaje">Este campo no puede estar vacio.</div>
+			<button class="enviar" onclick="validar;"> Enviar </button>
+		</form>
 	</section>
 	<footer class="fin">
 		<section>
