@@ -6,10 +6,11 @@ body {
 
 .cabecera {
 	height: 200px;
-	
+	background-size:100%;
+	margin-bottom: 3%;
 }
 
-.logo {;
+.logo {
 	margin: 0px auto;
 }
 
