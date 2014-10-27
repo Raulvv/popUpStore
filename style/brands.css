@@ -21,7 +21,9 @@
 	font-size: 180%;
 	line-height: 2em;
 	font-style: oblique;
+	text-shadow: 0 0 40px black;
 }
+
 .brand:hover{
 	color: #FF2B56;
 }
