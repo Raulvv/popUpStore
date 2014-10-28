@@ -18,29 +18,23 @@ for (var i=0;i<links.length;i++)
 }
 
 function pressBrand(event) {
-	console.log("1")
 	var encontrado;
 	var x= 0;
 	var images = 5;
-	console.log("2")
 	for (var i=1;i<=images;i++)
 	{
-		console.log("3")
 		document.getElementById("img_"+i).style.display="none";
 	}
 	
 	var marca=event.target.firstChild.nodeValue;
 	var imgBrand
-	console.log("4")
 
 	while(x<brands.length&&!encontrado)
 	{
-		console.log("1")
 		if (brands[x].key==marca)
 		{
 			
 			imgBrand=document.getElementById(brands[x].value);
-			console.log(brands[x].value)
 			encontrado=true;
 		}
 		x++;
