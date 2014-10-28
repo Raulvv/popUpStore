@@ -16,7 +16,7 @@ var calendar = {
   }
 }
 
-console.log(calendar.today);
+//console.log(calendar.today);
 //logs to console the new "Date()" object
 
 calendar.setDay(calendar.today.getDate());

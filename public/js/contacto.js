@@ -8,7 +8,7 @@ var alertMensaje = document.getElementById('errMensaje');
 function validar(){
 	 for(var i = 1; i<=campos.length+1;i++)
 	 {
-	 	if(document.getElementById('txt'+i).value == "" )
+	 	if(document.getElementById('txt'+i).value === "" )
 	 	{
 	 		errorVacio(document.getElementById('txt'+i));
 		}

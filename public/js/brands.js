@@ -1,3 +1,4 @@
+//Hash for Brands
 var brands = [
 {key:"Mr. Boho",
 value: "img_1"},
@@ -21,27 +22,29 @@ function pressBrand(event) {
 	var encontrado;
 	var x= 0;
 	var images = 5;
+
+
 	for (var i=1;i<=images;i++)
 	{
 		document.getElementById("img_"+i).style.display="none";
 	}
 	
 	var marca=event.target.firstChild.nodeValue;
+
 	var imgBrand
+
+	var imgBrand;
+
 
 	while(x<brands.length&&!encontrado)
 	{
 		if (brands[x].key==marca)
 		{
-			
 			imgBrand=document.getElementById(brands[x].value);
 			encontrado=true;
 		}
 		x++;
 	}
-
-	var numImg=marca.split(" ");
-
 	imgBrand.style.display="inline";
 }
 
