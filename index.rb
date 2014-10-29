@@ -22,5 +22,5 @@ get '/nosotros' do
 end
 
 get '/espacio' do
-	erb :eventos
+	erb :espacio
 end
