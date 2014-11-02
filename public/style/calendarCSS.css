@@ -72,6 +72,7 @@ html {
 #calendar #days > li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background-color: #fcfcf3;
+  cursor: pointer: ;
 }
 #calendar #days > li#today {
   background-color: rgba(116, 77, 98, 0.3);

@@ -9,7 +9,7 @@ value: "images/planta4.jpg"},
 value: "simages/planta2.jpg"},
 {key:"sala_trabajo",
 value: "images/planta3.jpg"}
-]
+];
 
 var area = document.getElementsByClassName("area");
 

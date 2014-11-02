@@ -25,3 +25,28 @@ calendar.setMonth(calendar.today.getMonth());
 
 calendar.setYear(calendar.today.getFullYear());
 // this passes to setYear the 4ditits of a year using getFullYear.
+
+//-------------------------------------------------------------------------------------------//
+
+var daysList = document.getElementById('days').children;
+for (i=0; i<daysList.length; i++)
+{
+  daysList[i].addEventListener('click', showInfo);
+
+};
+
+var eventCard = {
+  20141121: {img:"http://lorempixel.com/400/350/cats/1", text: "Gatos, gatos everywhere! GATOOOOOOS!!"}
+};
+//console.log(eventCard['20141121']);
+
+function showInfo (evt)
+{
+  var clickedDay = calendar.today.getFullYear().toString() + (calendar.today.getMonth() + 1).toString() +evt.target.textContent.toString(); // Fucking paranoia
+
+  if (eventCard[clickedDay]) {
+    var newImg = document.getElementById('fotoevento').children[0].src = eventCard[clickedDay].img;
+
+    document.getElementById('bottomcalendario').textContent = eventCard[clickedDay].text;
+  }
+}
