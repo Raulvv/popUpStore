@@ -1,7 +1,6 @@
-/* More Javascript will be added eventually, HTML+CSS were designed for it to be simple as possible. */
-
 var calendar = {
-  months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"], // Months are in spanish, but can be localized later to be in every language.
+  months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"], 
+  
   today: new Date(),
   setDay: function(day) {
     document.getElementById("today").id = "";
@@ -16,7 +15,7 @@ var calendar = {
   }
 }
 
-//console.log(calendar.today);
+console.log(calendar.today);
 //logs to console the new "Date()" object
 
 calendar.setDay(calendar.today.getDate());
