@@ -56,16 +56,16 @@ nav li:hover {
 	transition-duration: 0.5s;
 	color:#FFFFFF;
 }
-.eventos {
+#eventos {
 	width: 80%;
 	margin: 5%;
 	overflow: hidden;
 	margin: 0 auto;
 	margin-bottom: 5%;
 }
-.fotoevento {
+#fotoevento {
 	display: inline-block;
-	width: 42%;
+	width: 400px;
 	height: 350px;
 	background-color: black;
 	float: left;
@@ -74,9 +74,14 @@ nav li:hover {
 	text-align: center;
 	color: white;
 	border-radius: 0.5em 0.5em .5em .5em;
+	overflow: hidden;
+}
+#fotoevento img {
+	width: 100%;
+	height: auto;
 }
 
-.calendario {
+#calendario {
 	display: inline-block;
 	float: right;
 	width: 42%;
@@ -86,7 +91,7 @@ nav li:hover {
 	color: white;	
 	border-radius: 0.5em 0.5em .5em .5em;
 }
-.bottomcalendario {
+#bottomcalendario {
 	width: 42%;
 	height: 100px;
 	background-color: black;
@@ -94,6 +99,9 @@ nav li:hover {
 	margin-right: 7%;
 	margin-top: 1.5%;
 	border-radius: 0.5em 0.5em .5em .5em;
+	color: white;
+	font-size: 25px;
+	padding-top: 20px;
 }
 .intermedia {
 	width: 100%;
