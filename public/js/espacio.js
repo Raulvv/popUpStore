@@ -15,12 +15,15 @@ var area = document.getElementsByClassName("area");
 
 for (var i=0;i<area.length;i++)
 {
-	area[i].onclick=showsala;
-	//area[i].getElementById(salas[x].key)
-	var area_id = event.target.id
+  area[i].onclick=showsala;
+  //area[i].getElementById(salas[x].key)
+  var area_id = event.target.id
 }
 
 /*
+salas["sala_grande"] devuelve la ruta de la imagen
+
+
 var mapa = document.getElementById("mapa");
 var salagrande = document.getElementById("sala_grande");
 var salagrupo = document.getElementById("sala_grupo");
@@ -37,7 +40,7 @@ salareuniones.onclick = showsala2 */
 //salas.key.onclick = showsala;
 
 function showsala() {
-	mapa.src = salas.area_id;
+  mapa.src = salas.area_id;
 }
 
 /*
@@ -61,4 +64,5 @@ function showsala2 () {
        mapa.src = "images/planta2.jpg";
     }
 */
+
 
