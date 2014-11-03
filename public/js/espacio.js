@@ -1,29 +1,22 @@
-var salas = [
-{key:"sala_grande",
-value: "images/planta6.jpg"},
-{key:"sala_grupo",
-value: "images/planta5.jpg"},
-{key:"sala_visionado",
-value: "images/planta4.jpg"},
-{key:"sala_reuniones",
-value: "simages/planta2.jpg"},
-{key:"sala_trabajo",
-value: "images/planta3.jpg"}
-]
+var espacios = { 
+  "sala_reuniones": "images/planta2.jpg", 
+  "sala_trabajo": "images/planta3.jpg", 
+  "sala_visionado": "images/planta4.jpg", 
+  "sala_grupo": "images/planta5.jpg", 
+  "sala_grande": "images/planta6.jpg"}
 
-var area = document.getElementsByClassName("area");
+area = document.getElementsByClassName("area")
 
-for (var i=0;i<area.length;i++)
-{
-  area[i].onclick=showsala;
-  //area[i].getElementById(salas[x].key)
-  var area_id = event.target.id
+for(var i=0;i<area.length;i++){
+  area[i].addEventListener("click",changeRoom)
+}
+
+function changeRoom(){
+  var sala = this.id;
+  document.getElementById("mapa").src=espacios[sala];
 }
 
 /*
-salas["sala_grande"] devuelve la ruta de la imagen
-
-
 var mapa = document.getElementById("mapa");
 var salagrande = document.getElementById("sala_grande");
 var salagrupo = document.getElementById("sala_grupo");
@@ -64,5 +57,3 @@ function showsala2 () {
        mapa.src = "images/planta2.jpg";
     }
 */
-
-
