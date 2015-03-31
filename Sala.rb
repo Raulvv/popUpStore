@@ -1,30 +1,36 @@
-class Sala
-	attr_accessor :name, :capacity, :fixPrice, :variablePrice
-	attr_accessor :events
-	attr_accessor :all_events
+class Animal
 
-	def initialize (name, capacity, fixPrice, variablePrice)
-		@all_events = []
-		@events = {}
-		@name = name
-		@capacity = capacity
-		@fixPrice = fixPrice
-		@variablePrice = variablePrice
-	end
+  def initialize(noise)
 
-	def getDataSala
-		return @name, @capacity, @fixPrice, @variablePrice
-	end
+@noise = noise
 
-	def addEvent(name, description)
-		@events[:name] = description
-	end
+  end
 
-	def getEvent (name)
-		@events[name]
-	end
 
-	def getAllEvents
-		@events
-	end
+  def make_noise
+
+@noise
+
+  end
+
+
+  def make_a_lot_of_noise
+
+@noise.upcase
+
+  end
+
 end
+
+ class Cat < Animal
+
+  def make_noise
+
+"purrrrr"
+
+  end
+
+end
+
+
+puts Cat.new("meaw").make_a_lot_of_noise

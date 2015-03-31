@@ -1,4 +1,0 @@
-popUpStore
-==========
-
-Trabajo de Industria
